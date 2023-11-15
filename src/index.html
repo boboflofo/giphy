@@ -1,16 +1,39 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Project Name</title>
-</head>
 <html lang="en-US">
 <head>
+  <title>Giphy</title>
 </head>
 <body>
-  <div>Hello world!</div>
-  <img src="./assets/images/this-is-an-example.jpg" alt="example!"/>
+  <div class="container">
+    <h1>Query any word and recieve a GIF resembling input</h1>
+    <p>please just enter a single word or string</p>
+    <pre>
+      Fish
+      Running
+      Happy
+    </pre>
+    <form>
+      <label for="query">Enter a word:</label><br>
+      <input id="query" type="text" name="query">
+      <button type="submit" class="btn-success" id="wordSubmit">Get yer GIF</button>
+    </form>
+    <p id="showResponse"></p>
+    <div id="showGif"></div>
+  </div>
 </body>
 </html>
 
-
-</html>
+<!-- <html lang="en-US">
+<head>
+  <title>Giphy</title>
+</head>
+<body>
+  <div class="container">
+    <h1>click button to get trendng gifs</h1>
+    <form>
+      <button type="submit" class="btn-success" id="wordSubmit">Get yer GIF</button>
+    </form>
+    <p id="showResponse"></p>
+    <div id="showGif"></div>
+  </div>
+</body>
+</html> -->
